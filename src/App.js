@@ -25,6 +25,7 @@ function App() {
             <Route path="Result" element={<Result />} />
           </Route>
           <Route path="/Voter">
+            {/* get decoded data from login component */}
             <Route index element={<Vhome />} />
             <Route path="cast" element={<Vcast />} />
             <Route path="result" element={<Vresult />} />
